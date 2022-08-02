@@ -9,10 +9,10 @@
   - `Seaborn`
   - `Couter`
   - `re`
-- `Keras` for DL Model
+- `Keras` Deep learning for humans.
   - `models`
   - `layers`
-- `Scikit_learn` for ML Model
+- `Scikit_learn` A set of python modules for machine learning and data mining
   - `DecisionTreeClassifier`
   - `SVM`
   - `KNeighborsClassifier`
