@@ -3,36 +3,36 @@
 ---
 
 ## Main tech
-- `Python 3` with pip
+1. `Python 3` with pip
   - `Pandas`
   - `Numpy`
   - `Seaborn`
   - `Couter`
   - `re`
-- `Keras` Deep learning for humans.
+2. `Keras` Deep learning for humans.
   - `models`
   - `layers`
-- `Scikit_learn` A set of python modules for machine learning and data mining
+3. `Scikit_learn` A set of python modules for machine learning and data mining
   - `DecisionTreeClassifier`
   - `SVM`
   - `KNeighborsClassifier`
   - `GaussianNB`
   - `RandomForestClassifier`
   - `KFold`
-- `Imbalanced-learn` Toolbox for imbalanced dataset in machine learning.
+4. `Imbalanced-learn` Toolbox for imbalanced dataset in machine learning.
   - `SMOTE Borderline`
 
 ---
 
-## Các giai đoạn thực hiện 
-1. Xử lý dữ liệu thô ban đầu
-  - CleanData.py
-2. Tính toán điểm trung bình của từng loại mã
-  - Final_Data.xlsx
-3. Sinh dữ liệu mới dùng SMOTE Borderline 
-  - SMOTEBorderline.ipynb
-  - SMOTE_Borderline_Data.xlsx
-4. Sử dụng dữ liệu mới tạo ra để huấn luyện và đánh giá mô hình ANN 
-  - ANN_Model.ipynb
-5. Sử dụng dữ liệu mới để huấn luyện và đánh giá mô hình LM: 
-  - ML_Model.ipynb
+## Stage implementation
+### Data Processing
+```CleanData.py```
+### Calculate the average score of each code type
+```Final_Data.xlsx```
+### Generate new data using SMOTE Borderline
+```SMOTEBorderline.ipynb```
+```SMOTE_Borderline_Data.xlsx```
+### Using newly generated data to train and evaluate the ANN model
+```ANN_Model.ipynb```
+### Using the new data to train and evaluate the ML model 
+```ML_Model.ipynb```
